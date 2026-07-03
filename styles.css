@@ -59,7 +59,6 @@ nav a.active {
 /* Main Body */
 
 main {
-   display: flex;
     gap: 60px;
 
     padding: clamp(24px, 6vw, 100px);
