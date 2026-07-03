@@ -59,8 +59,6 @@ nav a.active {
 /* Main Body */
 
 main {
-    display: block;
-
     padding: clamp(24px, 6vw, 100px);
     padding-top: 120px;
     padding-bottom: 90px;
@@ -92,9 +90,7 @@ footer {
     display: flex;
     gap: 60px;
 
-    padding: 0; /* let main control spacing */
-
-    min-height: calc(100vh - 170px); /* header + footer approx */
+    min-height: calc(100vh - 170px);
     align-items: center;
 }
 
@@ -111,15 +107,9 @@ footer {
 
 /* Layout: single pages */
 
-  .single {
+ .single {
     max-width: 800px;
     margin: 0 auto;
-
-    padding-left: clamp(24px, 6vw, 100px);
-    padding-right: clamp(24px, 6vw, 100px);
-
-    padding-top: 120px;
-    padding-bottom: 90px;
 }
 
 .single h1 {
@@ -141,17 +131,13 @@ footer {
     padding: 5%;
   }
 
-  main {
-        gap: 30px;
-        padding: 100px 5% 90px;
-  }
+ main {
+        padding: 100px 5% 90px; /* your 90% content rule */
+    }
 
-   .split {
+    .split {
         flex-direction: column;
         gap: 30px;
-
-        padding-left: 5%;
-        padding-right: 5%;
     }
 
     .single {
