@@ -113,9 +113,13 @@ footer {
 
 /* Layout: single pages */
 .single {
-  padding: 120px 100px 80px;
-  max-width: 800px;
-  margin: 0 auto;
+  .single {
+    max-width: 800px;
+    margin: 0 auto;
+
+    padding-left: clamp(24px, 6vw, 100px);
+    padding-right: clamp(24px, 6vw, 100px);
+}
 }
 
 .single h1 {
@@ -143,10 +147,18 @@ footer {
         padding: 100px 5% 90px;
   }
 
-  .split {
-    flex-direction: column;
-    gap: 30px;
-  }
+   .split {
+        flex-direction: column;
+        gap: 30px;
+
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .single {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 
   nav a {
     margin-left: 16px;
