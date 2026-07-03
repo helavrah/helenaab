@@ -142,7 +142,6 @@ footer {
   }
 
   main {
-       flex-direction: column;
         gap: 30px;
         padding: 100px 5% 90px;
   }
