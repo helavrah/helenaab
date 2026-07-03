@@ -91,7 +91,7 @@ footer {
     gap: 60px;
 
     min-height: calc(100vh - 170px);
-    align-items: center;
+    align-items: flex-start;
 }
 
 .text-column, .image-column {
