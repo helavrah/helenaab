@@ -59,14 +59,11 @@ nav a.active {
 /* Main Body */
 
 main {
-    gap: 60px;
+    display: block;
 
     padding: clamp(24px, 6vw, 100px);
-    padding-top: 120px;     /* space for fixed header */
-    padding-bottom: 90px;   /* space for fixed footer */
-
-    min-height: 100vh;
-    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 90px;
 }
 
 /* Footer */
