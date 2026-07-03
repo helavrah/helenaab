@@ -159,6 +159,17 @@ footer {
         padding-right: 5%;
     }
 
+  .text-column,
+    .image-column {
+        width: 100%;
+        padding: 0;
+    }
+
+    .image-column img {
+        width: 100%;
+        height: auto;
+    }
+
   nav a {
     margin-left: 16px;
   }
